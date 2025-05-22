@@ -19,13 +19,13 @@
         <div class="navbar">
 
             <div class="logo">
-                <a href=".//index">Outdoor <br> <span>Adventure</span></a>
+                <a href="./index">Outdoor <br> <span>Adventure</span></a>
 
             </div>
             <nav>
                 <ul>
-                    <li><a href=".//index"> Home</a></li>
-                    <li><a href="./pages//about"> About</a></li>
+                    <li><a href="./index"> Home</a></li>
+                    <li><a href="./pages/about"> About</a></li>
                     <li><a href="#"> Tour</a></li>
                     <li><a href="#"> Contact</a></li>
                     <li><a href="#"> Take Action</a></li>
@@ -165,12 +165,18 @@
 
     </footer>
 
+
     
 
     <script src="https://kit.fontawesome.com/505e3c13e1.js" crossorigin="anonymous"></script>
 
 
 
+<script>
+  if (window.location.href.endsWith(".html")) {
+    window.location.href = window.location.href.replace(".html", "");
+  }
+</script>
 
 
 
