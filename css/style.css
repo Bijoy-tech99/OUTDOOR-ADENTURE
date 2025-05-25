@@ -50,6 +50,7 @@ header{
 }
 nav ul{
     align-items: center;
+    display: flex;
 }
 nav ul li{
     list-style: none;
@@ -61,14 +62,25 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 25px;
+    transition: 0.3s;
 }
-nav ul li a:hover{
-    background-color: red;
-    padding: 14px 10px;
-    border-radius: 6px;
-    transform: 0.3s;
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: rgb(255, 0, 0);
+    display: block;
+    transition: 0.3s linear;
     cursor: pointer;
 
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
 }
 
 
@@ -107,6 +119,7 @@ nav ul li a:hover{
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 2px;
+    
 }
 .banner button:hover{
     background-color: transparent;
