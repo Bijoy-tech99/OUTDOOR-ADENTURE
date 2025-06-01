@@ -25,7 +25,7 @@
 
             </div>
             <nav>
-                <ul>
+                <ul id="menuLinks">
                     <li><a href="./index.html"> Home</a></li>
                     <li><a href="./pages/about.html"> About</a></li>
                     <li><a href="#service"> Service</a></li>
@@ -180,6 +180,29 @@
     
 
     <script src="https://kit.fontawesome.com/505e3c13e1.js" crossorigin="anonymous"></script>
+
+    
+        <script>
+          let menuLinks = document.getElementById("menuLinks")
+          let menuIcon = document.getElementById("menuIcon")
+
+
+          menuLinks.style.maxHeight = "0px"
+
+           menuIcon.addEventListener("click",() =>{
+            if( menuLinks.style.maxHeight === "0px")
+           {
+            menuLinks.style.maxHeight = "350px"
+
+             }
+            else{
+              menuLinks.style.maxHeight = "0px"
+
+               }
+              })
+
+
+        </script>
 
 
     

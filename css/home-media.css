@@ -3,7 +3,7 @@
 /* mobile Query */
 @media only screen and (max-width: 600px) {
   header {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .navbar {
     display: block;
@@ -16,25 +16,83 @@
     font-size: 18px;
   }
   nav ul {
-    /* display: block; */
     text-align: center;
-    padding: 0;
+    padding: 0px;
     margin: 0px 0px 0px 0px;
   }
 
   nav ul li {
-    display: inline-block;
-    margin: 10px 0px 10px auto;
+    margin: 10px 0px 10px 28px;
     padding: 6px;
   }
 
   nav ul li a{
-    font-size: 16px;
+    font-size: 18px;
   }
+   nav ul{
+        /* display: block; */
+        text-align: center;
+        position: absolute;
+        top: 113px;
+        left: 0;
+        right: 0;
+        background: #000;
+        flex-direction: column;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li:last-child{
+        padding-bottom: 40px;
+    }
+
+    .menu-icon{
+        text-align: right;
+        display: block;
+        color: white;
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+        padding-top: 48px;
+        padding-bottom: 0;
+    }
+    nav{
+        padding: 1rem 1rem;
+        /* display: block; */
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+        padding-top: 48px;
+        padding-bottom: 0;
+    }
+    nav{
+        padding: 1rem 1rem;
+        /* display: block; */
+    }
+    nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: rgb(255, 0, 0);
+  display: block;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+nav ul li a:hover:after {
+  width 
+}
+
+nav ul li a:hover {
+  color: rgb(255, 0, 0);
+}
   .banner {
   text-align: center;
   color: white;
-  padding: 165px 0px 100px 0px;
+  padding: 214px 0px 100px 0px;
 }
 .banner h3 {
   margin: 17px 0px 0px 0px;
@@ -71,6 +129,7 @@
   cursor: pointer;
   transition: 0.4s;
 }
+
 /*   upcoming events  */
 
 .event h1 {
@@ -297,7 +356,6 @@ footer {
   
 }
 
-
 }
 
 /* tab */
@@ -317,14 +375,12 @@ footer {
     font-size: 20px;
   }
   nav ul {
-    display: block;
     text-align: center;
     padding: 0px;
     margin: 0px 0px 0px 0px;
   }
 
   nav ul li {
-    display: inline-block;
     margin: 10px 0px 10px 28px;
     padding: 6px;
   }
@@ -332,6 +388,37 @@ footer {
   nav ul li a{
     font-size: 20px;
   }
+   nav ul{
+        /* display: block; */
+        text-align: center;
+        position: absolute;
+        top: 113px;
+        left: 0;
+        right: 0;
+        background: #000;
+        flex-direction: column;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li:last-child{
+        padding-bottom: 40px;
+    }
+
+    .menu-icon{
+        text-align: right;
+        display: block;
+        color: white;
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+        padding-top: 48px;
+        padding-bottom: 0;
+    }
+    nav{
+        padding: 1rem 1rem;
+        /* display: block; */
+    }
   .banner {
   text-align: center;
   color: white;
@@ -390,10 +477,7 @@ footer {
   display: inline-block;
 }
 .main {
-  /* display: -webkit-box; */
   display: -ms-flexbox;
-  /* display: flex; */
-  /* -webkit-box-pack: center; */
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
@@ -595,20 +679,19 @@ footer {
   font-size: 34px;
 }
 
-
-
 }
 
 /* tab landscape, Square monitor */
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
 
    header {
-    min-height: 80vh;
+    min-height: 100vh;
   }
   .navbar {
-    display: block;
-    margin: 0px 20px;
-    padding: 20px 0;
+    justify-content: space-between;
+    /* display: block; */
+    margin: 10px 20px;
+    padding: 20px 30px;
   }
   .logo a {
     display: block;
@@ -616,14 +699,12 @@ footer {
     font-size: 20px;
   }
   nav ul {
-    display: block;
     text-align: center;
     padding: 0px;
     margin: 0px 0px 0px 0px;
   }
 
   nav ul li {
-    display: inline-block;
     margin: 10px 0px 10px 28px;
     padding: 6px;
   }
@@ -631,6 +712,27 @@ footer {
   nav ul li a{
     font-size: 20px;
   }
+   nav ul{
+        /* display: block; */
+        text-align: center;
+        position: absolute;
+        top: 113px;
+        left: 0;
+        right: 0;
+        background: #000;
+        flex-direction: column;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li:last-child{
+        padding-bottom: 40px;
+    }
+
+    .menu-icon{
+        text-align: right;
+        display: block;
+        color: white;
+    }
   .banner {
   text-align: center;
   color: white;
