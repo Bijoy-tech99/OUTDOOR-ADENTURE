@@ -6,14 +6,15 @@
     min-height: 80vh;
   }
   .navbar {
-    display: block;
+    /* display: block; */
     margin: 0px 20px;
     padding: 20px 0;
   }
   .logo a {
     display: block;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 16px;
   }
   nav ul {
     text-align: center;
@@ -374,9 +375,9 @@ footer {
     min-height: 90vh;
   }
   .navbar {
-    display: block;
-    margin: 0px 20px;
-    padding: 20px 0;
+    /* display: block; */
+    margin: 0px 30px;
+    padding: 33px 0;
   }
   .logo a {
     display: block;
