@@ -9,6 +9,8 @@
     /* display: block; */
     margin: 0px 20px;
     padding: 20px 0;
+    justify-items: center;
+    align-content: center;
   }
   .logo a {
     display: block;
@@ -34,7 +36,7 @@
         /* display: block; */
         text-align: center;
         position: absolute;
-        top: 113px;
+        top: 73px;
         left: 0;
         right: 0;
         background: #000;
@@ -402,7 +404,7 @@ footer {
         /* display: block; */
         text-align: center;
         position: absolute;
-        top: 113px;
+        top: 90px;
         left: 0;
         right: 0;
         background: #000;
