@@ -259,10 +259,10 @@ nav ul li a:hover {
 
 .tour-item {
   padding: 0px 8px;
-  width: 100%;
+  width: 96%;
   text-align: center;
   justify-content: center;
-  display: block;
+  display: inline-block;
 }
 
 .tour-item h3 {
